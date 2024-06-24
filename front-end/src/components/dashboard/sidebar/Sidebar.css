@@ -1,0 +1,76 @@
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+    width: 250px;
+    background-color: #1d4738; /* Verde oscuro */
+    color: #d2d2d2;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: space-around;
+    
+  }
+  
+  .logo {
+    text-align: center;
+    margin-top: 40px;
+   
+  }
+  
+  .logo img {
+    width: 100px; /* Ajusta según el tamaño de tu logo */
+  }
+  
+  .menu {
+    flex: 1;
+     display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  }
+  
+  .menu ul {
+    list-style-type: none;
+    padding: 20px 0;
+
+  }
+  
+  .menu ul li {
+    margin: 60px 0;
+    text-align: center;
+  }
+  
+  .menu ul li a {
+    color: #d2d2d2;
+    text-decoration: none;
+    font-size: 18px;
+    display: block;
+  }
+  
+  .menu ul li a:hover {
+    color: #D5DF67; /* Verde claro */
+  }
+  
+  .logout {
+    text-align: center;
+   
+    
+
+  }
+  
+  .button-logout{
+   margin-bottom: 50px;
+    background-color: #D5DF67; /* Verde claro */
+    color: #1d4738; /* Verde oscuro */
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+  }
+  
+  .logout button:hover {
+    background-color: rgb(213, 223, 103,0.8); 
+  }
+  

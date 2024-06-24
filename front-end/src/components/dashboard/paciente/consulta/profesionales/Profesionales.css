@@ -1,0 +1,15 @@
+.consulta-container{
+    margin-left: 230px;
+
+}
+
+.consulta-title{
+    color: #B1D182;
+    font-size: 40px;
+}
+.professional-list{
+    display: flex;
+    flex-direction: row;
+    
+    flex-wrap: wrap;
+}
