@@ -1,0 +1,26 @@
+.turnos-cont{
+    display: flex;
+    flex-direction: column;
+}
+
+.info-turno{
+    width: 200px;
+    height: 100px;
+    background-color: #B1D182;
+    border-radius: 16px;
+    margin: 20px;
+    padding: 20px;
+}
+
+.button-turno{
+    background-color: #2B463C;
+    color: aliceblue;
+    border-radius: 5px;
+    padding: 5px 15px;
+    cursor: pointer;
+    margin: 10px;
+}
+.buttons-turno{
+    display: flex;
+    flex-direction: row;
+}

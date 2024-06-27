@@ -1,0 +1,31 @@
+
+
+.daily-container{
+    display: flex;
+    flex-direction: column;
+    margin-left: 150px;
+    padding: 0 30px;
+}
+
+.daily-title-button{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.button-daily{
+    background-color: #2B463C;
+    color: aliceblue;
+    border-radius: 10px;
+    padding: 2px 15px;
+    cursor: pointer;
+}
+
+.emotions-part{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.title-home{
+    color: #2B463C;
+}

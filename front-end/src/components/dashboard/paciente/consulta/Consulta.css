@@ -1,0 +1,7 @@
+.consulta-cont{
+    display: flex;
+    flex-direction: column;
+    
+    /* align-items: start;
+    align-content: start; */
+}

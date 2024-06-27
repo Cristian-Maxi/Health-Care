@@ -1,0 +1,66 @@
+.section {
+  display: flex;
+  flex-direction: column;
+  gap: 45px;
+}
+
+.divider {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  min-width: 500px;
+  margin: 20px 0;
+}
+
+.divider h1 {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.divider hr {
+  flex-grow: 1;
+  border: none;
+  border-top: 1px solid #000;
+  margin: 0;
+}
+
+.agenda_container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.turn_container {
+  display: flex;
+  align-items: center;
+  max-width: 70%;
+  gap: 10px;
+}
+
+.turn_container hr {
+  border: none;
+  border-left: 5px solid var(--gray);
+  height: 70px; /* Ajusta la altura según sea necesario */
+  margin: 0 10px;
+}
+
+.hour_container {
+  display: flex;
+  flex-direction: column;
+}
+
+.start_time{
+  font-size: 40px;
+  font-weight: bold;
+  color: var(--color1);
+}
+
+.end_time{
+  font-size: 24px;
+  color: var(--gray);
+}
+
+.patient {
+  font-size: 24px;
+  font-weight: bold;
+}

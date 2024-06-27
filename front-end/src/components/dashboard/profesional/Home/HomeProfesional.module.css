@@ -1,0 +1,44 @@
+.dashboard_container {
+  display: flex;
+  align-items: center;
+}
+
+.section {
+  flex: 1;
+  margin: 0 auto; 
+  padding-left: 150px; 
+  max-width: 1200px; 
+}
+
+.divider {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  gap: 40px;
+  margin: 20px 0;
+}
+
+.divider h1 {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.divider hr {
+  flex-grow: 1;
+  border: none;
+  border-top: 1px solid #000;
+  margin: 0;
+}
+
+.card_container {
+  display: flex;
+  gap: 25px;
+  overflow-x: auto;
+  overflow-y: hidden;
+  white-space: nowrap;
+  padding: 10px;
+}
+
+.card_container {
+  width: 1000px;
+}

@@ -1,0 +1,45 @@
+.data-card{
+    display: flex;
+    flex-direction: row;
+    /* position: fixed; */
+    top: 0;
+    left: 300px;
+   
+}
+
+
+.pic-paciente {
+    margin-top: 10px;
+    margin-right: 20px;
+    align-self: center;
+  }
+  
+  .info {
+    margin: 10px;
+    color: #333;
+  }
+  
+
+  
+  .info p {
+    margin: 5px 0;
+  }
+  
+  .info p strong {
+    color: #1d4738;
+  }
+
+  .name-paciente{
+    color: #B1D182;
+    font-size: 40px;
+}
+
+.divider {
+
+    width: 700px;
+    border: none;
+    height: 1px;
+    background-color: #A4D27E; 
+    
+  }
+  
